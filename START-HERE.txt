@@ -1,0 +1,47 @@
+REACTORPLAN — COMPLETE PROJECT PACKAGE
+======================================
+
+This ZIP contains the complete project source, backend, frontend, included
+workbooks, preloaded source-backed inventory database, export logic, and
+validation scripts. Dependencies are intentionally not bundled; install them
+with the locked package versions on the target machine.
+
+WINDOWS QUICK START
+-------------------
+1. Extract the entire ZIP to a writable folder (do not run it from inside the ZIP).
+2. Install Node.js LTS from https://nodejs.org/ if Node.js/npm are not installed.
+3. Double-click SETUP-AND-RUN-WINDOWS.bat.
+   It installs dependencies, runs the data/UI contract checks, then starts both
+   services. Keep the terminal window open while using ReactorPlan.
+4. Open http://127.0.0.1:5173 if it does not open automatically.
+
+MANUAL COMMANDS (run from this folder)
+-------------------------------------
+npm run install:all   Install backend and frontend dependencies
+npm run verify        Run workbook data, backend preflight and frontend UI checks
+npm run build         Create the production frontend bundle (requires installed deps)
+npm run dev           Start backend + Vite development server together
+npm run smoke         Run API smoke tests; run only while backend is already running
+
+BACKEND TROUBLESHOOTING
+-----------------------
+- The backend validates its database before reporting that it is ready. If startup fails, read the full error in the backend terminal.
+- If port 4000 is already in use, stop the old ReactorPlan/node process and run `npm run dev` again.
+- See `BACKEND-STARTUP-FIX-2026-10-23.md` for the fix and verification boundaries.
+
+SERVICES
+--------
+Frontend: http://127.0.0.1:5173
+Backend:  http://127.0.0.1:4000
+Health:   http://127.0.0.1:4000/api/health
+
+IMPORTANT DELIVERY NOTES
+------------------------
+- Excel workbook/source files are included under backend/source-data/.
+- The included database snapshot is under backend/database/.
+- Make a backup before replacing workbook or database files.
+- `npm run verify` is for source/workbook/static contract checks. It does not
+  replace a production build or a full browser-driven end-to-end test.
+- The source Capacity Summary differs from the sum of individual reactor
+  capacities by 0.086 kL. That mismatch is documented and has intentionally
+  not been silently corrected. See DATA-RECONCILIATION-2026-10-23.md.

@@ -1,0 +1,61 @@
+{
+  "version": "v40",
+  "sourceWorkbook": "Equipment List & Live Tracker_M-Sheet file_14Oct26(2).xlsx",
+  "sourceSheets": [
+    "Capacity Summary",
+    "Summary",
+    "Mapping Tracker",
+    "Volume summary",
+    "CTO-2",
+    "CTO-3",
+    "CTO-5",
+    "CTO-6",
+    "CTO-SEZ",
+    "Mexico",
+    "Mirfield"
+  ],
+  "counts": {
+    "equipmentRecords": 272,
+    "capacitySummaryRows": 34,
+    "mappingTrackerRows": 326,
+    "uniqueReactorIdsInMappingTracker": 193,
+    "uniqueProductCodes": 112,
+    "clientProjectRows": 133,
+    "volumeSummaryRows": 10
+  },
+  "capacitySummaryKL": {
+    "total": 955.418,
+    "utilized": 385.005,
+    "mapped": 730.725,
+    "available": 224.693
+  },
+  "individualInventoryCapacitySumKL": 955.504,
+  "inventoryMinusCapacitySummaryKL": 0.086,
+  "differenceBySiteKL": {
+    "CTO-6": 0.08,
+    "Mexico": 0.006
+  },
+  "planningProbability": {
+    "Confirmed": {
+      "records": 173,
+      "scheduleCells": 4093,
+      "uniqueSiteReactorPairs": 138
+    },
+    "High Probable": {
+      "records": 52,
+      "scheduleCells": 1136,
+      "uniqueSiteReactorPairs": 47
+    },
+    "Visible": {
+      "records": 101,
+      "scheduleCells": 763,
+      "uniqueSiteReactorPairs": 65
+    }
+  },
+  "notes": [
+    "Capacity Summary is the authoritative source for aggregate capacity totals.",
+    "Individual reactor capacity fields are preserved exactly as the workbook provides them.",
+    "Utilized capacity is a subset of mapped capacity; do not add the full mapped value to utilized capacity when calculating a total breakdown.",
+    "Mapping Tracker rows, unique reactor IDs, and current inventory status are different metrics."
+  ]
+}

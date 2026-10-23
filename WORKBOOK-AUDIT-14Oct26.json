@@ -1,0 +1,83 @@
+{
+  "source_file": "Equipment List & Live Tracker_M-Sheet file_14Oct26.xlsx",
+  "sha256": "22eb9fd515354d849727577759b1ac75dcc2c7f69f110c6a96e15e180f575ed7",
+  "sheets": [
+    {
+      "name": "Capacity Summary",
+      "max_row": 41,
+      "max_column": 19,
+      "populated_cells": 291,
+      "formula_cells": 87
+    },
+    {
+      "name": "Summary",
+      "max_row": 40,
+      "max_column": 42,
+      "populated_cells": 1341,
+      "formula_cells": 42
+    },
+    {
+      "name": "Mapping Tracker",
+      "max_row": 281,
+      "max_column": 87,
+      "populated_cells": 8008,
+      "formula_cells": 77
+    },
+    {
+      "name": "Volume summary",
+      "max_row": 27,
+      "max_column": 24,
+      "populated_cells": 102,
+      "formula_cells": 28
+    },
+    {
+      "name": "CTO-2",
+      "max_row": 15,
+      "max_column": 13,
+      "populated_cells": 36,
+      "formula_cells": 0
+    },
+    {
+      "name": "CTO-3",
+      "max_row": 27,
+      "max_column": 11,
+      "populated_cells": 225,
+      "formula_cells": 0
+    },
+    {
+      "name": "CTO-5",
+      "max_row": 12,
+      "max_column": 11,
+      "populated_cells": 90,
+      "formula_cells": 0
+    },
+    {
+      "name": "CTO-6",
+      "max_row": 123,
+      "max_column": 11,
+      "populated_cells": 639,
+      "formula_cells": 0
+    },
+    {
+      "name": "CTO-SEZ",
+      "max_row": 18,
+      "max_column": 11,
+      "populated_cells": 144,
+      "formula_cells": 0
+    },
+    {
+      "name": "Mexico",
+      "max_row": 11,
+      "max_column": 10,
+      "populated_cells": 72,
+      "formula_cells": 0
+    },
+    {
+      "name": "Mirfield",
+      "max_row": 7,
+      "max_column": 11,
+      "populated_cells": 45,
+      "formula_cells": 0
+    }
+  ]
+}

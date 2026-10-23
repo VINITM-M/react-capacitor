@@ -1,0 +1,17 @@
+{
+  "name": "reactorplan-master-workbook-integration",
+  "private": true,
+  "version": "2.7.0",
+  "scripts": {
+    "dev": "node start-dev.mjs",
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "install:all": "npm ci --prefix backend && npm ci --prefix frontend",
+    "validate": "npm --prefix backend run validate",
+    "preflight": "npm --prefix backend run preflight",
+    "smoke": "npm --prefix backend run smoke",
+    "build": "npm --prefix frontend run build",
+    "validate:ui": "npm --prefix frontend run validate",
+    "verify": "npm run validate && npm run preflight && npm run validate:ui"
+  }
+}

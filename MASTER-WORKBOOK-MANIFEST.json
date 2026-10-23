@@ -1,0 +1,52 @@
+{
+  "filename": "Equipment List & Live Tracker_M-Sheet file_14Oct26.xlsx",
+  "storedAs": "backend/source-data/master-workbook.xlsx",
+  "sha256": "22eb9fd515354d849727577759b1ac75dcc2c7f69f110c6a96e15e180f575ed7",
+  "bytes": 147817,
+  "sheets": [
+    "Capacity Summary",
+    "Summary",
+    "Mapping Tracker",
+    "Volume summary",
+    "CTO-2",
+    "CTO-3",
+    "CTO-5",
+    "CTO-6",
+    "CTO-SEZ",
+    "Mexico",
+    "Mirfield"
+  ],
+  "release": "v40",
+  "platformVersion": "2.7.2",
+  "dataSync": {
+    "status": "bundled-and-validated",
+    "verifiedAt": "2026-10-21T12:00:00+05:30",
+    "verification": "The bundled master workbook is byte-for-byte identical to the latest supplied 14 Oct 2026 Equipment List & Live Tracker workbook. Backend source-data validation confirms capacity summary values, 272 inventory records, 326 schedule mapping records, and per-site counts. Planning-probability colour parsing now recognises theme-based amber/visible fills; blank reactor-ID schedule rows are excluded from reactor counts. Searchable mapping options use a plain white list with dark text and neutral hover styling."
+  },
+  "sourceWorkbook": "Equipment List & Live Tracker_M-Sheet file_14Oct26.xlsx",
+  "sourceSheet": "Capacity Summary; Summary; Mapping Tracker; site worksheets",
+  "sourceRows": 281,
+  "sourceColumns": 87,
+  "inventoryRecords": 272,
+  "capacitySourceLocked": true,
+  "sourceFiles": [
+    {
+      "filename": "master-workbook.xlsx",
+      "storedAs": "backend/source-data/master-workbook.xlsx",
+      "sha256": "22eb9fd515354d849727577759b1ac75dcc2c7f69f110c6a96e15e180f575ed7",
+      "bytes": 147817
+    },
+    {
+      "filename": "equipment-live-tracker-14Oct26.xlsx",
+      "storedAs": "backend/source-data/equipment-live-tracker-14Oct26.xlsx",
+      "sha256": "22eb9fd515354d849727577759b1ac75dcc2c7f69f110c6a96e15e180f575ed7",
+      "bytes": 147817
+    },
+    {
+      "filename": "platform-schedule.xlsx",
+      "storedAs": "backend/source-data/platform-schedule.xlsx",
+      "sha256": "22eb9fd515354d849727577759b1ac75dcc2c7f69f110c6a96e15e180f575ed7",
+      "bytes": 147817
+    }
+  ]
+}

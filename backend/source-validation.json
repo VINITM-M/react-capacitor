@@ -1,0 +1,85 @@
+{
+  "capacity": {
+    "rows": 34,
+    "totalCapacity": 955.418,
+    "mapped": 730.725,
+    "utilization": 385.005,
+    "available": 224.693
+  },
+  "inventory": {
+    "equipmentRows": 272,
+    "individualCapacitySumKL": 955.504,
+    "differenceFromCapacitySummaryKL": 0.086,
+    "differenceBySiteKL": {
+      "CTO-6": 0.08,
+      "Mexico": 0.006
+    },
+    "mappedPhysicalRecords": 203,
+    "unassignedPhysicalRecords": 69
+  },
+  "mappingTracker": {
+    "records": 326,
+    "uniqueReactorIds": 193,
+    "uniqueProjectProductCodes": 112,
+    "uniqueMappedPhysicalRecords": 203
+  },
+  "equipmentBySite": {
+    "CTO-2": 12,
+    "CTO-3": 52,
+    "CTO-5": 17,
+    "CTO-6": 136,
+    "CTO-SEZ": 26,
+    "Mexico": 22,
+    "Mirfield": 7
+  },
+  "mappingBySite": {
+    "CTO-2": 9,
+    "CTO-3": 71,
+    "CTO-5": 26,
+    "CTO-6": 160,
+    "CTO-SEZ": 35,
+    "Mexico": 18,
+    "Mirfield": 7
+  },
+  "volume": {
+    "rows": 10,
+    "siteRows": 7,
+    "total": 599.441,
+    "mapped": 484.56,
+    "utilized": 328.65,
+    "available": 114.881
+  },
+  "probabilitySourceAvailable": true,
+  "sourceWorkbook": "Equipment List & Live Tracker_M-Sheet file_14Oct26(2).xlsx",
+  "planningProbability": {
+    "source": "Mapping Tracker schedule-cell fills",
+    "colourMapping": {
+      "FF92D050": "Confirmed",
+      "FFFFFF00": "High Probable",
+      "theme-7-tints": "Visible"
+    },
+    "uniqueReactors": {
+      "Confirmed": 138,
+      "High Probable": 47,
+      "Visible": 66
+    },
+    "scheduleCells": {
+      "Confirmed": 4093,
+      "High Probable": 1136,
+      "Visible": 763
+    },
+    "totalScheduleCells": 5992,
+    "note": "Counts are physical inventory records keyed by stable reactor UID. Confidence categories overlap because a reactor can have different planning confidence across periods; do not add category counts to derive Total Reactors."
+  },
+  "calendarHorizon": {
+    "start": "2026-04-01",
+    "end": "2028-12-31",
+    "weekStart": "Monday",
+    "sourceDataThrough": "2027-09-22",
+    "sourceScheduleCadence": "Wednesday"
+  },
+  "productInformation": {
+    "uniqueProductNames": 113,
+    "note": "Product Information cards are grouped by normalized Product Name and display all associated Stage Codes together."
+  }
+}
